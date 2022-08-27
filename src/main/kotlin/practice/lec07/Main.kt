@@ -1,3 +1,7 @@
+import java.io.BufferedReader
+import java.io.File
+import java.io.FileReader
+
 fun parseIntOrThrow(str: String): Int{
     try{
         return str.toInt()
@@ -13,9 +17,8 @@ fun parseIntOrThrowV2(str: String): Int?{
         null
     }
 }
-import java.io.BufferedReader
-import java.io.File
-import java.io.FileReader
+
+
 class FilePrinter {
     fun readFile(){
         val currentFile = File(".")
