@@ -1,8 +1,8 @@
 package practice.lec03
 
 fun main() {
-    val number1: Int?=3
-    val number2:Long=number1?.toLong() ?: 0
+    val number1: Int = 3
+    var number2:Long=number1?.toLong() ?: 0
 
     val person = Person("최대현")
     println("이름 : ${person.name}")
@@ -18,6 +18,7 @@ fun main() {
 
     val str="ABCDE"
     val ch = str[1]
+    println(ch)
 }
 
 //fun printAgeIfPerson(obj: Any) {
